@@ -29,7 +29,7 @@
 
 Access **200+ AI models** with zero content filtering. Generate video, images, and text with complete creative freedom.
 
-**NSFW video generation from just $0.03/request.**
+**NSFW video generation from just $0.03/s.**
 
 🎁 **25% bonus on your first top-up (up to $100)**
 
@@ -116,7 +116,7 @@ The mainstream AI industry has imposed increasingly aggressive content filters t
 
 The **Wan 2.2 Spicy** model on Atlas Cloud is currently the best option for uncensored video generation:
 
-- ✅ **Cheapest in the industry** — $0.03 per video
+- ✅ **Cheapest in the industry** — from $0.03 per second
 - ✅ **No content filtering** — complete creative freedom
 - ✅ **API access** — integrate into your workflow
 - ✅ **LoRA support** — apply custom styles and characters
@@ -598,7 +598,7 @@ print(result["choices"][0]["message"]["content"])
 
 | Platform | Video NSFW | Image NSFW | LLM NSFW | API Access | Cheapest Price | Ease of Use |
 |:---------|:----------|:----------|:---------|:-----------|:--------------|:------------|
-| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** | ✅ Full | ✅ Full | ✅ Full | ✅ REST API | **$0.03/video** | ⭐⭐⭐⭐⭐ |
+| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** | ✅ Full | ✅ Full | ✅ Full | ✅ REST API | **from $0.03/s** | ⭐⭐⭐⭐⭐ |
 | Replicate | ⚠️ Limited | ⚠️ Limited | ❌ Filtered | ✅ REST API | $0.10+ | ⭐⭐⭐⭐ |
 | RunPod | ✅ Self-host | ✅ Self-host | ✅ Self-host | ✅ Custom | GPU hourly rate | ⭐⭐⭐ |
 | fal.ai | ⚠️ Limited | ⚠️ Limited | ❌ Filtered | ✅ REST API | $0.05+ | ⭐⭐⭐⭐ |
@@ -621,13 +621,15 @@ print(result["choices"][0]["message"]["content"])
 
 | Model | fal.ai Price | Atlas Cloud Price | Savings |
 |:------|:-----------|:-----------------|:--------|
-| **Wan 2.2 Spicy** | ❌ Not available | **$0.03/req** | Atlas exclusive |
-| **Wan 2.5** | $0.05/sec (5sec = $0.25) | **$0.05/req** | **80% cheaper** |
-| **Kling (Whitelisted)** | $0.224/sec | **$0.204/req** | **82% cheaper** |
-| **Flux Dev (NSFW)** | ❌ No NSFW support | **$0.012/img** | Atlas exclusive |
-| **Seedream v5.0 (Whitelisted)** | ❌ Not available | **$0.032/img** | Atlas exclusive |
-| **Vidu Q3-Pro (Whitelisted)** | ❌ Not available | **$0.06/req** | Atlas exclusive |
-| **Vidu Q3-Turbo (Whitelisted)** | ❌ Not available | **$0.034/req** | Atlas exclusive |
+| **Wan 2.2 Spicy** | ❌ Not available | **from $0.03/s** | Atlas exclusive |
+| **Wan 2.5** | $0.05/sec (5sec = $0.25) | **from $0.05/s** | **80% cheaper** |
+| **Kling (Whitelisted)** | $0.224/sec | **from $0.204/s** | **82% cheaper** |
+| **Flux Dev (NSFW)** | ❌ No NSFW support | **from $0.012/image** | Atlas exclusive |
+| **Seedream v5.0 (Whitelisted)** | ❌ Not available | **from $0.032/image** | Atlas exclusive |
+| **Vidu Q3-Pro (Whitelisted)** | ❌ Not available | **from $0.06/s** | Atlas exclusive |
+| **Vidu Q3-Turbo (Whitelisted)** | ❌ Not available | **from $0.034/s** | Atlas exclusive |
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 > ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
@@ -649,7 +651,7 @@ For cloud-based generation, **Flux Dev on Atlas Cloud** currently produces the h
 <details>
 <summary><strong>What is the cheapest NSFW AI video generator?</strong></summary>
 
-**Wan 2.2 Spicy on Atlas Cloud at $0.03 per video** is currently the cheapest option for NSFW video generation. The alternative is self-hosting on a GPU, which costs significantly more per video when accounting for GPU rental or hardware costs.
+**Wan 2.2 Spicy on Atlas Cloud at from $0.03 per second** is currently the cheapest option for NSFW video generation. The alternative is self-hosting on a GPU, which costs significantly more per video when accounting for GPU rental or hardware costs.
 
 **[Generate NSFW Video for $0.03 →](https://www.atlascloud.ai?ref=JPM683)**
 
