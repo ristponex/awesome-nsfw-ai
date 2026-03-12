@@ -99,7 +99,7 @@ The mainstream AI industry has imposed increasingly aggressive content filters t
 
 | Model | Base Model By | Resolution | Duration | Price | Platform | Notes |
 |:------|:-------------|:-----------|:---------|:------|:---------|:------|
-| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 Best value, open-source base |
+| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 Best value, LoRA fine-tuned |
 | **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Custom style support |
 | Wan 2.1 (self-hosted) | Alibaba | 720p | ~5s | GPU cost | RunPod / Local | Requires setup |
 | CogVideoX (self-hosted) | Tsinghua | 720p | ~6s | GPU cost | Local | Open source |

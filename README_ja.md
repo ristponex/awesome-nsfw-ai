@@ -99,7 +99,7 @@
 
 | モデル | ベースモデル元 | 解像度 | 長さ | 価格 | プラットフォーム | 備考 |
 |:------|:-------------|:-------|:-----|:-----|:--------------|:-----|
-| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 最高コスパ、オープンソースベース |
+| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 最高コスパ、LoRAファインチューニング |
 | **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | カスタムスタイル対応 |
 | Wan 2.1（セルフホスト） | Alibaba | 720p | ~5秒 | GPU費用 | RunPod / ローカル | セットアップ必要 |
 | CogVideoX（セルフホスト） | 清華大学 | 720p | ~6秒 | GPU費用 | ローカル | オープンソース |

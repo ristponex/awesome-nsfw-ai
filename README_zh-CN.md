@@ -101,7 +101,7 @@
 
 | 模型 | 基础模型方 | 分辨率 | 时长 | 价格 | 平台 | 备注 |
 |:------|:----------|:-------|:-----|:-----|:-----|:-----|
-| **Wan 2.2 Spicy I2V** | 阿里巴巴 | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 性价比之王，开源基础 |
+| **Wan 2.2 Spicy I2V** | 阿里巴巴 | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 性价比之王，LoRA 微调 |
 | **Wan 2.2 Spicy I2V LoRA** | 阿里巴巴 | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 支持自定义风格 |
 | Wan 2.1（自托管） | 阿里巴巴 | 720p | ~5秒 | GPU 成本 | RunPod / 本地 | 需要配置 |
 | CogVideoX（自托管） | 清华大学 | 720p | ~6秒 | GPU 成本 | 本地 | 开源 |

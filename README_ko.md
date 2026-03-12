@@ -99,7 +99,7 @@
 
 | 모델 | 베이스 모델 출처 | 해상도 | 길이 | 가격 | 플랫폼 | 비고 |
 |:------|:-------------|:-------|:-----|:-----|:-------|:-----|
-| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 최고 가성비, 오픈소스 기반 |
+| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 최고 가성비, LoRA 파인튜닝 |
 | **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 커스텀 스타일 지원 |
 | Wan 2.1 (셀프호스팅) | Alibaba | 720p | ~5초 | GPU 비용 | RunPod / 로컬 | 설정 필요 |
 | CogVideoX (셀프호스팅) | 칭화대 | 720p | ~6초 | GPU 비용 | 로컬 | 오픈소스 |
