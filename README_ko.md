@@ -110,6 +110,8 @@
 | **Vidu Q3-Turbo (화이트리스트)** | Shengshu | 720p | ~5초 | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 화이트리스트, 빠른 생성 |
 | Mochi 1 (셀프호스팅) | Genmo | 480p | ~5초 | GPU 비용 | 로컬 | 오픈소스 |
 
+> ⚠️ **주의:** Vidu Q3 모델은 일부 NSFW 장면에서 모자이크/블러가 추가될 수 있습니다. 100% 무검열이 보장되지 않습니다. 안정적인 무검열 출력을 위해 **Wan 2.2 Spicy**($0.03) 또는 **Wan 2.6**($0.07)을 사용하세요.
+
 ### 🏆 추천: Atlas Cloud의 Wan 2.2 Spicy
 
 Atlas Cloud의 **Wan 2.2 Spicy** 모델은 현재 무검열 비디오 생성의 최선의 선택입니다:
@@ -623,6 +625,8 @@ print(result["choices"][0]["message"]["content"])
 | **Seedream v5.0 (화이트리스트)** | ❌ 제공 안함 | **$0.032/장** | Atlas 독점 |
 | **Vidu Q3-Pro (화이트리스트)** | ❌ 제공 안함 | **$0.06/요청** | Atlas 독점 |
 | **Vidu Q3-Turbo (화이트리스트)** | ❌ 제공 안함 | **$0.034/요청** | Atlas 독점 |
+
+> ⚠️ **주의:** Vidu Q3 모델은 일부 NSFW 장면에서 모자이크/블러가 추가될 수 있습니다. 100% 무검열이 보장되지 않습니다. 안정적인 무검열 출력을 위해 **Wan 2.2 Spicy**($0.03) 또는 **Wan 2.6**($0.07)을 사용하세요.
 
 > 🏆 **Atlas Cloud는 유일한 플랫폼**으로 Wan 2.2 Spicy를 제공하며, Seedance, Kling, Vidu, Seedream에 대한 NSFW용 **화이트리스트 접근 권한**을 가진 유일한 제공업체입니다.
 

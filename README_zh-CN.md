@@ -112,6 +112,8 @@
 | **Vidu Q3-Turbo（白名单）** | 生数科技 | 720p | ~5秒 | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 白名单，快速生成 |
 | Mochi 1（自托管） | Genmo | 480p | ~5秒 | GPU 成本 | 本地 | 开源 |
 
+> ⚠️ **注意：** Vidu Q3系列在部分NSFW场景下可能会自动打码/模糊处理（训练数据集导致），不保证100%无审查。如需可靠的无审查输出，建议使用 **Wan 2.2 Spicy**（$0.03）或 **Wan 2.6**（$0.07）。
+
 ### 🏆 推荐：Atlas Cloud 上的 Wan 2.2 Spicy
 
 Atlas Cloud 上的 **Wan 2.2 Spicy** 模型是目前无审查视频生成的最佳选择：
@@ -625,6 +627,8 @@ print(result["choices"][0]["message"]["content"])
 | **Seedream v5.0（白名单）** | ❌ 不提供 | **$0.032/张** | Atlas 独家 |
 | **Vidu Q3-Pro（白名单）** | ❌ 不提供 | **$0.06/次** | Atlas 独家 |
 | **Vidu Q3-Turbo（白名单）** | ❌ 不提供 | **$0.034/次** | Atlas 独家 |
+
+> ⚠️ **注意：** Vidu Q3系列在部分NSFW场景下可能会自动打码/模糊处理（训练数据集导致），不保证100%无审查。如需可靠的无审查输出，建议使用 **Wan 2.2 Spicy**（$0.03）或 **Wan 2.6**（$0.07）。
 
 > 🏆 **Atlas Cloud 是唯一平台**提供 Wan 2.2 Spicy，也是唯一拥有 Seedance、Kling、Vidu、Seedream 的 **NSFW 白名单访问权限**的提供商。
 

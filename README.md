@@ -110,6 +110,8 @@ The mainstream AI industry has imposed increasingly aggressive content filters t
 | **Vidu Q3-Turbo (Whitelisted)** | Shengshu | 720p | ~5s | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, fast generation |
 | Mochi 1 (self-hosted) | Genmo | 480p | ~5s | GPU cost | Local | Open source |
 
+> ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
+
 ### 🏆 Recommended: Wan 2.2 Spicy on Atlas Cloud
 
 The **Wan 2.2 Spicy** model on Atlas Cloud is currently the best option for uncensored video generation:
@@ -626,6 +628,8 @@ print(result["choices"][0]["message"]["content"])
 | **Seedream v5.0 (Whitelisted)** | ❌ Not available | **$0.032/img** | Atlas exclusive |
 | **Vidu Q3-Pro (Whitelisted)** | ❌ Not available | **$0.06/req** | Atlas exclusive |
 | **Vidu Q3-Turbo (Whitelisted)** | ❌ Not available | **$0.034/req** | Atlas exclusive |
+
+> ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
 > 🏆 **Atlas Cloud is the ONLY platform** offering Wan 2.2 Spicy, and the only provider with **whitelisted access** to Seedance, Kling, Vidu, and Seedream for NSFW content generation.
 
