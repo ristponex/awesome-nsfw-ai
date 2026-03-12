@@ -37,6 +37,10 @@
 
 </div>
 
+> 🔒 **企业级安全保障** — Atlas Cloud 已通过 **SOC I & II 认证** | **HIPAA 合规** | 美国本土公司。您的数据和使用受企业级安全标准保护。
+
+> 💳 **支付便捷** — 支持微信支付、支付宝直接付款，无需国际信用卡。
+
 ---
 
 ## 📋 目录
@@ -101,6 +105,11 @@
 | **Wan 2.2 Spicy I2V LoRA** | 阿里巴巴 | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 支持自定义风格 |
 | Wan 2.1（自托管） | 阿里巴巴 | 720p | ~5秒 | GPU 成本 | RunPod / 本地 | 需要配置 |
 | CogVideoX（自托管） | 清华大学 | 720p | ~6秒 | GPU 成本 | 本地 | 开源 |
+| **Wan 2.5 I2V** | 阿里巴巴 | 720p | ~5秒 | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 高品质，比 fal.ai 便宜 80% |
+| **Kling 1.6（白名单）** | 快手 | 1080p | ~5-10秒 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 白名单，比 fal.ai 便宜 82% |
+| **Seedance 1.0（白名单）** | 字节跳动 | 1080p | ~5秒 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 白名单 |
+| **Vidu Q3-Pro（白名单）** | 生数科技 | 1080p | ~8秒 | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 白名单，支持文/图/首尾帧生成视频 |
+| **Vidu Q3-Turbo（白名单）** | 生数科技 | 720p | ~5秒 | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 白名单，快速生成 |
 | Mochi 1（自托管） | Genmo | 480p | ~5秒 | GPU 成本 | 本地 | 开源 |
 
 ### 🏆 推荐：Atlas Cloud 上的 Wan 2.2 Spicy
@@ -185,6 +194,8 @@ print(f"视频 URL: {result.get('output', {}).get('video_url')}")
 | **Flux Dev LoRA** | 文生图 + LoRA | 2K | 不等 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 自定义角色与风格模型 |
 | **Flux Kontext Dev** | 图片编辑 | 2K | 不等 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 编辑现有图片 |
 | SDXL（自托管） | 文生图 | 1K | GPU 成本 | 本地 / RunPod | 庞大的 LoRA 生态系统 |
+| **Flux Dev（NSFW）** | 文生图 | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | safety_checker=false 支持 NSFW |
+| **Seedream v5.0（白名单）** | 文生图 | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 白名单 |
 | Pony Diffusion | 文生图 | 1K | GPU 成本 | 本地 | 动漫/风格化专家 |
 
 ### 快速开始：通过 API 生成图像
@@ -602,6 +613,20 @@ print(result["choices"][0]["message"]["content"])
 | **模型种类** | 200+ 模型，一个平台 | 每个模型需要单独配置 |
 | **LoRA 支持** | 内置 | 需手动配置 |
 | **维护** | 零 —— 全托管 | 需要定期更新、故障排除、磁盘空间管理 |
+
+### 💰 Atlas Cloud vs fal.ai —— 价格对比
+
+| 模型 | fal.ai 价格 | Atlas Cloud 价格 | 节省幅度 |
+|:------|:-----------|:----------------|:---------|
+| **Wan 2.2 Spicy** | ❌ 不提供 | **$0.03/次** | Atlas 独家 |
+| **Wan 2.5** | $0.05/秒（5秒=$0.25） | **$0.05/次** | **便宜 80%** |
+| **Kling（白名单）** | $0.224/秒 | **$0.204/次** | **便宜 82%** |
+| **Flux Dev（NSFW）** | ❌ 不支持 NSFW | **$0.012/张** | Atlas 独家 |
+| **Seedream v5.0（白名单）** | ❌ 不提供 | **$0.032/张** | Atlas 独家 |
+| **Vidu Q3-Pro（白名单）** | ❌ 不提供 | **$0.06/次** | Atlas 独家 |
+| **Vidu Q3-Turbo（白名单）** | ❌ 不提供 | **$0.034/次** | Atlas 独家 |
+
+> 🏆 **Atlas Cloud 是唯一平台**提供 Wan 2.2 Spicy，也是唯一拥有 Seedance、Kling、Vidu、Seedream 的 **NSFW 白名单访问权限**的提供商。
 
 ---
 

@@ -37,6 +37,8 @@ Access **200+ AI models** with zero content filtering. Generate video, images, a
 
 </div>
 
+> 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | US-based company. Your data and usage are protected by enterprise-grade security standards.
+
 ---
 
 ## 📋 Table of Contents
@@ -101,6 +103,11 @@ The mainstream AI industry has imposed increasingly aggressive content filters t
 | **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Custom style support |
 | Wan 2.1 (self-hosted) | Alibaba | 720p | ~5s | GPU cost | RunPod / Local | Requires setup |
 | CogVideoX (self-hosted) | Tsinghua | 720p | ~6s | GPU cost | Local | Open source |
+| **Wan 2.5 I2V** | Alibaba | 720p | ~5s | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | High quality, 80% cheaper than fal.ai |
+| **Kling 1.6 (Whitelisted)** | Kuaishou | 1080p | ~5-10s | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, 82% cheaper than fal.ai |
+| **Seedance 1.0 (Whitelisted)** | ByteDance | 1080p | ~5s | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW |
+| **Vidu Q3-Pro (Whitelisted)** | Shengshu | 1080p | ~8s | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, text/image/start-end-to-video |
+| **Vidu Q3-Turbo (Whitelisted)** | Shengshu | 720p | ~5s | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, fast generation |
 | Mochi 1 (self-hosted) | Genmo | 480p | ~5s | GPU cost | Local | Open source |
 
 ### 🏆 Recommended: Wan 2.2 Spicy on Atlas Cloud
@@ -186,6 +193,8 @@ print(f"Video URL: {result.get('output', {}).get('video_url')}")
 | **Flux Kontext Dev** | Image Editing | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Edit existing images |
 | SDXL (self-hosted) | Text-to-Image | 1K | GPU cost | Local / RunPod | Massive LoRA ecosystem |
 | Pony Diffusion | Text-to-Image | 1K | GPU cost | Local | Anime / stylized specialist |
+| **Flux Dev (NSFW)** | Text-to-Image | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | safety_checker=false for NSFW |
+| **Seedream v5.0 (Whitelisted)** | Text-to-Image | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW |
 | EasyFlux (self-hosted) | Text-to-Image | 2K | GPU cost | Local | Simplified Flux variant |
 
 ### Quick Start: Image Generation via API
@@ -605,6 +614,20 @@ print(result["choices"][0]["message"]["content"])
 | **Model Variety** | 200+ models, one platform | Each model requires separate setup |
 | **LoRA Support** | Built-in | Manual configuration per model |
 | **Maintenance** | Zero — fully managed | Regular updates, troubleshooting, disk space |
+
+### 💰 Atlas Cloud vs fal.ai — Price Comparison
+
+| Model | fal.ai Price | Atlas Cloud Price | Savings |
+|:------|:-----------|:-----------------|:--------|
+| **Wan 2.2 Spicy** | ❌ Not available | **$0.03/req** | Atlas exclusive |
+| **Wan 2.5** | $0.05/sec (5sec = $0.25) | **$0.05/req** | **80% cheaper** |
+| **Kling (Whitelisted)** | $0.224/sec | **$0.204/req** | **82% cheaper** |
+| **Flux Dev (NSFW)** | ❌ No NSFW support | **$0.012/img** | Atlas exclusive |
+| **Seedream v5.0 (Whitelisted)** | ❌ Not available | **$0.032/img** | Atlas exclusive |
+| **Vidu Q3-Pro (Whitelisted)** | ❌ Not available | **$0.06/req** | Atlas exclusive |
+| **Vidu Q3-Turbo (Whitelisted)** | ❌ Not available | **$0.034/req** | Atlas exclusive |
+
+> 🏆 **Atlas Cloud is the ONLY platform** offering Wan 2.2 Spicy, and the only provider with **whitelisted access** to Seedance, Kling, Vidu, and Seedream for NSFW content generation.
 
 ---
 

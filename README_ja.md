@@ -37,6 +37,8 @@
 
 </div>
 
+> 🔒 **エンタープライズグレードのセキュリティ** — Atlas Cloudは**SOC I & II認証取得** | **HIPAA準拠** | 米国企業です。お客様のデータと利用はエンタープライズグレードのセキュリティ基準で保護されています。
+
 ---
 
 ## 📋 目次
@@ -101,6 +103,11 @@
 | **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8秒 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | カスタムスタイル対応 |
 | Wan 2.1（セルフホスト） | Alibaba | 720p | ~5秒 | GPU費用 | RunPod / ローカル | セットアップ必要 |
 | CogVideoX（セルフホスト） | 清華大学 | 720p | ~6秒 | GPU費用 | ローカル | オープンソース |
+| **Wan 2.5 I2V** | Alibaba | 720p | ~5秒 | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 高品質、fal.aiより80%安い |
+| **Kling 1.6（ホワイトリスト）** | Kuaishou | 1080p | ~5-10秒 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFWホワイトリスト、fal.aiより82%安い |
+| **Seedance 1.0（ホワイトリスト）** | ByteDance | 1080p | ~5秒 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFWホワイトリスト |
+| **Vidu Q3-Pro（ホワイトリスト）** | Shengshu | 1080p | ~8秒 | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFWホワイトリスト、テキスト/画像/始終フレーム→動画 |
+| **Vidu Q3-Turbo（ホワイトリスト）** | Shengshu | 720p | ~5秒 | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFWホワイトリスト、高速生成 |
 | Mochi 1（セルフホスト） | Genmo | 480p | ~5秒 | GPU費用 | ローカル | オープンソース |
 
 ### 🏆 おすすめ：Atlas Cloud上のWan 2.2 Spicy
@@ -185,6 +192,8 @@ print(f"動画URL: {result.get('output', {}).get('video_url')}")
 | **Flux Dev LoRA** | テキスト→画像 + LoRA | 2K | 変動 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | カスタムキャラクター＆スタイル |
 | **Flux Kontext Dev** | 画像編集 | 2K | 変動 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 既存画像の編集 |
 | SDXL（セルフホスト） | テキスト→画像 | 1K | GPU費用 | ローカル / RunPod | 巨大なLoRAエコシステム |
+| **Flux Dev（NSFW）** | テキスト→画像 | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | safety_checker=falseでNSFW対応 |
+| **Seedream v5.0（ホワイトリスト）** | テキスト→画像 | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFWホワイトリスト |
 | Pony Diffusion | テキスト→画像 | 1K | GPU費用 | ローカル | アニメ/スタイライズ特化 |
 
 ### クイックスタート：API経由の画像生成
@@ -602,6 +611,20 @@ print(result["choices"][0]["message"]["content"])
 | **モデル数** | 200以上、1つのプラットフォーム | 各モデルごとに個別セットアップ |
 | **LoRAサポート** | 組み込み | 手動設定が必要 |
 | **メンテナンス** | ゼロ — フルマネージド | 定期的なアップデート、トラブルシューティング |
+
+### 💰 Atlas Cloud vs fal.ai — 価格比較
+
+| モデル | fal.ai価格 | Atlas Cloud価格 | 節約率 |
+|:------|:----------|:---------------|:-------|
+| **Wan 2.2 Spicy** | ❌ 提供なし | **$0.03/リクエスト** | Atlas独占 |
+| **Wan 2.5** | $0.05/秒（5秒=$0.25） | **$0.05/リクエスト** | **80%安い** |
+| **Kling（ホワイトリスト）** | $0.224/秒 | **$0.204/リクエスト** | **82%安い** |
+| **Flux Dev（NSFW）** | ❌ NSFW非対応 | **$0.012/枚** | Atlas独占 |
+| **Seedream v5.0（ホワイトリスト）** | ❌ 提供なし | **$0.032/枚** | Atlas独占 |
+| **Vidu Q3-Pro（ホワイトリスト）** | ❌ 提供なし | **$0.06/リクエスト** | Atlas独占 |
+| **Vidu Q3-Turbo（ホワイトリスト）** | ❌ 提供なし | **$0.034/リクエスト** | Atlas独占 |
+
+> 🏆 **Atlas Cloudは唯一のプラットフォーム**としてWan 2.2 Spicyを提供し、Seedance、Kling、Vidu、SeedreamへのNSFW用**ホワイトリストアクセス**を持つ唯一のプロバイダーです。
 
 ---
 
