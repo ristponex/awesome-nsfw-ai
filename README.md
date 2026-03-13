@@ -25,7 +25,7 @@
 
 <div align="center">
 
-**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** — The industry's only fully uncensored multi-model AI platform.
+**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)** — The industry's only fully uncensored multi-model AI platform.
 
 Access **200+ AI models** with zero content filtering. Generate video, images, and text with complete creative freedom.
 
@@ -33,7 +33,7 @@ Access **200+ AI models** with zero content filtering. Generate video, images, a
 
 🎁 **25% bonus on your first top-up (up to $100)**
 
-[![Get Started](https://img.shields.io/badge/🔓_Start_Creating-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683)
+[![Get Started](https://img.shields.io/badge/🔓_Start_Creating-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)
 
 </div>
 
@@ -99,15 +99,15 @@ The mainstream AI industry has imposed increasingly aggressive content filters t
 
 | Model | Base Model By | Resolution | Duration | Price | Platform | Notes |
 |:------|:-------------|:-----------|:---------|:------|:---------|:------|
-| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 Best value, LoRA fine-tuned |
-| **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Custom style support |
+| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 🏆 Best value, LoRA fine-tuned |
+| **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8s | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Custom style support |
 | Wan 2.1 (self-hosted) | Alibaba | 720p | ~5s | GPU cost | RunPod / Local | Requires setup |
 | CogVideoX (self-hosted) | Tsinghua | 720p | ~6s | GPU cost | Local | Open source |
-| **Wan 2.5 I2V** | Alibaba | 720p | ~5s | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | High quality, 80% cheaper than fal.ai |
-| **Kling 1.6 (Whitelisted)** | Kuaishou | 1080p | ~5-10s | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, 82% cheaper than fal.ai |
-| **Seedance 1.0 (Whitelisted)** | ByteDance | 1080p | ~5s | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW |
-| **Vidu Q3-Pro (Whitelisted)** | Shengshu | 1080p | ~8s | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, text/image/start-end-to-video |
-| **Vidu Q3-Turbo (Whitelisted)** | Shengshu | 720p | ~5s | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW, fast generation |
+| **Wan 2.5 I2V** | Alibaba | 720p | ~5s | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | High quality, 80% cheaper than fal.ai |
+| **Kling 1.6 (Whitelisted)** | Kuaishou | 1080p | ~5-10s | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Whitelisted for NSFW, 82% cheaper than fal.ai |
+| **Seedance 1.0 (Whitelisted)** | ByteDance | 1080p | ~5s | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Whitelisted for NSFW |
+| **Vidu Q3-Pro (Whitelisted)** | Shengshu | 1080p | ~8s | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Whitelisted for NSFW, text/image/start-end-to-video |
+| **Vidu Q3-Turbo (Whitelisted)** | Shengshu | 720p | ~5s | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Whitelisted for NSFW, fast generation |
 | Mochi 1 (self-hosted) | Genmo | 480p | ~5s | GPU cost | Local | Open source |
 
 > ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
@@ -126,7 +126,7 @@ The **Wan 2.2 Spicy** model on Atlas Cloud is currently the best option for unce
 
 ```python
 # Atlas Cloud uncensored video generation example
-# Register to get API Key: https://www.atlascloud.ai?ref=JPM683
+# Register to get API Key: https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai
 
 import requests
 
@@ -189,14 +189,14 @@ print(f"Video URL: {result.get('output', {}).get('video_url')}")
 
 | Model | Type | Max Resolution | Price Range | Platform | Notes |
 |:------|:-----|:--------------|:------------|:---------|:------|
-| **Flux Dev** | Text-to-Image | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 Community favorite, excellent anatomy |
-| **Flux Schnell** | Text-to-Image | 1K | Lower | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | ⚡ Fastest generation |
-| **Flux Dev LoRA** | Text-to-Image + LoRA | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Custom character & style models |
-| **Flux Kontext Dev** | Image Editing | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Edit existing images |
+| **Flux Dev** | Text-to-Image | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 🏆 Community favorite, excellent anatomy |
+| **Flux Schnell** | Text-to-Image | 1K | Lower | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | ⚡ Fastest generation |
+| **Flux Dev LoRA** | Text-to-Image + LoRA | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Custom character & style models |
+| **Flux Kontext Dev** | Image Editing | 2K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Edit existing images |
 | SDXL (self-hosted) | Text-to-Image | 1K | GPU cost | Local / RunPod | Massive LoRA ecosystem |
 | Pony Diffusion | Text-to-Image | 1K | GPU cost | Local | Anime / stylized specialist |
-| **Flux Dev (NSFW)** | Text-to-Image | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | safety_checker=false for NSFW |
-| **Seedream v5.0 (Whitelisted)** | Text-to-Image | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Whitelisted for NSFW |
+| **Flux Dev (NSFW)** | Text-to-Image | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | safety_checker=false for NSFW |
+| **Seedream v5.0 (Whitelisted)** | Text-to-Image | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Whitelisted for NSFW |
 | EasyFlux (self-hosted) | Text-to-Image | 2K | GPU cost | Local | Simplified Flux variant |
 
 ### Quick Start: Image Generation via API
@@ -302,9 +302,9 @@ def generate_with_lora(prompt: str, lora_url: str, lora_scale: float = 0.8):
 
 | Model | Parameters | Context Window | Price | Platform | Best For |
 |:------|:-----------|:--------------|:------|:---------|:---------|
-| **DeepSeek V3.2** | 685B MoE | 128K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Creative writing, complex narratives |
-| **DeepSeek V3.1** | 685B MoE | 128K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | General creative tasks |
-| **Qwen3 Series** | Various | 32K-128K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | Multilingual content, roleplay |
+| **DeepSeek V3.2** | 685B MoE | 128K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Creative writing, complex narratives |
+| **DeepSeek V3.1** | 685B MoE | 128K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | General creative tasks |
+| **Qwen3 Series** | Various | 32K-128K | Varies | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | Multilingual content, roleplay |
 | Llama 3 (self-hosted) | 8B-70B | 8K-128K | GPU cost | Local | Highly customizable |
 | Mistral (self-hosted) | 7B-8x22B | 32K | GPU cost | Local | European language support |
 | Mythomax (self-hosted) | 13B | 4K | GPU cost | Local | Roleplay specialist |
@@ -598,7 +598,7 @@ print(result["choices"][0]["message"]["content"])
 
 | Platform | Video NSFW | Image NSFW | LLM NSFW | API Access | Cheapest Price | Ease of Use |
 |:---------|:----------|:----------|:---------|:-----------|:--------------|:------------|
-| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** | ✅ Full | ✅ Full | ✅ Full | ✅ REST API | **from $0.03/s** | ⭐⭐⭐⭐⭐ |
+| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)** | ✅ Full | ✅ Full | ✅ Full | ✅ REST API | **from $0.03/s** | ⭐⭐⭐⭐⭐ |
 | Replicate | ⚠️ Limited | ⚠️ Limited | ❌ Filtered | ✅ REST API | $0.10+ | ⭐⭐⭐⭐ |
 | RunPod | ✅ Self-host | ✅ Self-host | ✅ Self-host | ✅ Custom | GPU hourly rate | ⭐⭐⭐ |
 | fal.ai | ⚠️ Limited | ⚠️ Limited | ❌ Filtered | ✅ REST API | $0.05+ | ⭐⭐⭐⭐ |
@@ -644,7 +644,7 @@ print(result["choices"][0]["message"]["content"])
 
 For cloud-based generation, **Flux Dev on Atlas Cloud** currently produces the highest quality uncensored images with the best anatomy accuracy. For local generation, Flux Dev or SDXL with community LoRA models on ComfyUI offer the most flexibility.
 
-**[Try Flux Dev on Atlas Cloud →](https://www.atlascloud.ai?ref=JPM683)**
+**[Try Flux Dev on Atlas Cloud →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**
 
 </details>
 
@@ -653,7 +653,7 @@ For cloud-based generation, **Flux Dev on Atlas Cloud** currently produces the h
 
 **Wan 2.2 Spicy on Atlas Cloud at from $0.03 per second** is currently the cheapest option for NSFW video generation. The alternative is self-hosting on a GPU, which costs significantly more per video when accounting for GPU rental or hardware costs.
 
-**[Generate NSFW Video for $0.03 →](https://www.atlascloud.ai?ref=JPM683)**
+**[Generate NSFW Video for $0.03 →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**
 
 </details>
 
@@ -662,7 +662,7 @@ For cloud-based generation, **Flux Dev on Atlas Cloud** currently produces the h
 
 There are two main approaches:
 
-1. **Cloud API (Recommended):** Use a platform like [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) that provides uncensored model access via API. No GPU or setup needed.
+1. **Cloud API (Recommended):** Use a platform like [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) that provides uncensored model access via API. No GPU or setup needed.
 2. **Local Setup:** Install ComfyUI or Automatic1111, download uncensored models from Civitai or Hugging Face, and run on your own GPU (requires NVIDIA GPU with 8GB+ VRAM).
 
 </details>
@@ -677,7 +677,7 @@ It depends on the style:
 - **Video:** Wan 2.2 Spicy (only viable uncensored video model)
 - **Creative Writing:** DeepSeek V3.2 or Qwen3 (most capable uncensored LLMs)
 
-All available without content filters on **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)**.
+All available without content filters on **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**.
 
 </details>
 
@@ -697,7 +697,7 @@ Always check your local regulations. See the [Legal & Ethics](#️-legal--ethics
 <details>
 <summary><strong>What is the best uncensored AI API?</strong></summary>
 
-**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** offers the most comprehensive uncensored API with:
+**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)** offers the most comprehensive uncensored API with:
 
 - 200+ models (video, image, text)
 - Zero content filtering
@@ -712,7 +712,7 @@ No other platform provides this combination of model variety, lack of restrictio
 <details>
 <summary><strong>Do I need a powerful GPU for NSFW AI?</strong></summary>
 
-**No.** With cloud platforms like [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683), you can generate uncensored content from any device — even a phone. If you prefer local generation, you'll need an NVIDIA GPU with at least 8GB VRAM (12GB+ recommended for Flux models).
+**No.** With cloud platforms like [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai), you can generate uncensored content from any device — even a phone. If you prefer local generation, you'll need an NVIDIA GPU with at least 8GB VRAM (12GB+ recommended for Flux models).
 
 </details>
 
@@ -750,7 +750,7 @@ Several approaches:
 
 ### 🎁 Get 25% Extra Credits on Your First Top-Up
 
-[![Start Creating on Atlas Cloud](https://img.shields.io/badge/🔓_Start_Creating_Now-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683)
+[![Start Creating on Atlas Cloud](https://img.shields.io/badge/🔓_Start_Creating_Now-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)
 
 *No credit card required to browse models. Pay only for what you generate.*
 

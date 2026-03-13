@@ -25,7 +25,7 @@
 
 <div align="center">
 
-**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** — 업계 유일의 완전 무검열 멀티모델 AI 플랫폼.
+**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)** — 업계 유일의 완전 무검열 멀티모델 AI 플랫폼.
 
 **200개 이상의 AI 모델**에 제로 콘텐츠 필터링으로 접근. 완전한 크리에이티브 자유로 비디오, 이미지, 텍스트를 생성.
 
@@ -33,7 +33,7 @@
 
 🎁 **첫 충전 시 25% 보너스 (최대 $100)**
 
-[![시작하기](https://img.shields.io/badge/🔓_지금_시작하기-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683)
+[![시작하기](https://img.shields.io/badge/🔓_지금_시작하기-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)
 
 </div>
 
@@ -99,15 +99,15 @@
 
 | 모델 | 베이스 모델 출처 | 해상도 | 길이 | 가격 | 플랫폼 | 비고 |
 |:------|:-------------|:-------|:-----|:-----|:-------|:-----|
-| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 최고 가성비, LoRA 파인튜닝 |
-| **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 커스텀 스타일 지원 |
+| **Wan 2.2 Spicy I2V** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 🏆 최고 가성비, LoRA 파인튜닝 |
+| **Wan 2.2 Spicy I2V LoRA** | Alibaba | 720p | ~8초 | **$0.03** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 커스텀 스타일 지원 |
 | Wan 2.1 (셀프호스팅) | Alibaba | 720p | ~5초 | GPU 비용 | RunPod / 로컬 | 설정 필요 |
 | CogVideoX (셀프호스팅) | 칭화대 | 720p | ~6초 | GPU 비용 | 로컬 | 오픈소스 |
-| **Wan 2.5 I2V** | Alibaba | 720p | ~5초 | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 고품질, fal.ai보다 80% 저렴 |
-| **Kling 1.6 (화이트리스트)** | Kuaishou | 1080p | ~5-10초 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 화이트리스트, fal.ai보다 82% 저렴 |
-| **Seedance 1.0 (화이트리스트)** | ByteDance | 1080p | ~5초 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 화이트리스트 |
-| **Vidu Q3-Pro (화이트리스트)** | Shengshu | 1080p | ~8초 | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 화이트리스트, 텍스트/이미지/시작-끝 프레임→비디오 |
-| **Vidu Q3-Turbo (화이트리스트)** | Shengshu | 720p | ~5초 | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 화이트리스트, 빠른 생성 |
+| **Wan 2.5 I2V** | Alibaba | 720p | ~5초 | **$0.05** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 고품질, fal.ai보다 80% 저렴 |
+| **Kling 1.6 (화이트리스트)** | Kuaishou | 1080p | ~5-10초 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | NSFW 화이트리스트, fal.ai보다 82% 저렴 |
+| **Seedance 1.0 (화이트리스트)** | ByteDance | 1080p | ~5초 | **$0.204** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | NSFW 화이트리스트 |
+| **Vidu Q3-Pro (화이트리스트)** | Shengshu | 1080p | ~8초 | **$0.06** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | NSFW 화이트리스트, 텍스트/이미지/시작-끝 프레임→비디오 |
+| **Vidu Q3-Turbo (화이트리스트)** | Shengshu | 720p | ~5초 | **$0.034** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | NSFW 화이트리스트, 빠른 생성 |
 | Mochi 1 (셀프호스팅) | Genmo | 480p | ~5초 | GPU 비용 | 로컬 | 오픈소스 |
 
 > ⚠️ **주의:** Vidu Q3 모델은 일부 NSFW 장면에서 모자이크/블러가 추가될 수 있습니다. 100% 무검열이 보장되지 않습니다. 안정적인 무검열 출력을 위해 **Wan 2.2 Spicy**($0.03) 또는 **Wan 2.6**($0.07)을 사용하세요.
@@ -126,7 +126,7 @@ Atlas Cloud의 **Wan 2.2 Spicy** 모델은 현재 무검열 비디오 생성의 
 
 ```python
 # Atlas Cloud 무검열 비디오 생성 예제
-# API Key 획득: https://www.atlascloud.ai?ref=JPM683
+# API Key 획득: https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai
 
 import requests
 
@@ -189,13 +189,13 @@ print(f"비디오 URL: {result.get('output', {}).get('video_url')}")
 
 | 모델 | 유형 | 최대 해상도 | 가격대 | 플랫폼 | 비고 |
 |:------|:-----|:----------|:-------|:-------|:-----|
-| **Flux Dev** | 텍스트→이미지 | 2K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 🏆 커뮤니티 인기 1위, 뛰어난 해부학적 정확도 |
-| **Flux Schnell** | 텍스트→이미지 | 1K | 더 저렴 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | ⚡ 가장 빠른 생성 |
-| **Flux Dev LoRA** | 텍스트→이미지 + LoRA | 2K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 커스텀 캐릭터 & 스타일 |
-| **Flux Kontext Dev** | 이미지 편집 | 2K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 기존 이미지 편집 |
+| **Flux Dev** | 텍스트→이미지 | 2K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 🏆 커뮤니티 인기 1위, 뛰어난 해부학적 정확도 |
+| **Flux Schnell** | 텍스트→이미지 | 1K | 더 저렴 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | ⚡ 가장 빠른 생성 |
+| **Flux Dev LoRA** | 텍스트→이미지 + LoRA | 2K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 커스텀 캐릭터 & 스타일 |
+| **Flux Kontext Dev** | 이미지 편집 | 2K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 기존 이미지 편집 |
 | SDXL (셀프호스팅) | 텍스트→이미지 | 1K | GPU 비용 | 로컬 / RunPod | 거대한 LoRA 생태계 |
-| **Flux Dev (NSFW)** | 텍스트→이미지 | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | safety_checker=false로 NSFW 지원 |
-| **Seedream v5.0 (화이트리스트)** | 텍스트→이미지 | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | NSFW 화이트리스트 |
+| **Flux Dev (NSFW)** | 텍스트→이미지 | 2K | **$0.012** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | safety_checker=false로 NSFW 지원 |
+| **Seedream v5.0 (화이트리스트)** | 텍스트→이미지 | 2K | **$0.032** | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | NSFW 화이트리스트 |
 | Pony Diffusion | 텍스트→이미지 | 1K | GPU 비용 | 로컬 | 애니메/스타일라이즈 전문 |
 
 ### 빠른 시작: API를 통한 이미지 생성
@@ -301,9 +301,9 @@ def generate_with_lora(prompt: str, lora_url: str, lora_scale: float = 0.8):
 
 | 모델 | 파라미터 | 컨텍스트 윈도우 | 가격 | 플랫폼 | 최적 용도 |
 |:------|:--------|:-------------|:-----|:-------|:---------|
-| **DeepSeek V3.2** | 685B MoE | 128K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 크리에이티브 라이팅, 복잡한 내러티브 |
-| **DeepSeek V3.1** | 685B MoE | 128K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 범용 크리에이티브 작업 |
-| **Qwen3 시리즈** | 다양 | 32K-128K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | 다국어 콘텐츠, 롤플레이 |
+| **DeepSeek V3.2** | 685B MoE | 128K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 크리에이티브 라이팅, 복잡한 내러티브 |
+| **DeepSeek V3.1** | 685B MoE | 128K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 범용 크리에이티브 작업 |
+| **Qwen3 시리즈** | 다양 | 32K-128K | 변동 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) | 다국어 콘텐츠, 롤플레이 |
 | Llama 3 (셀프호스팅) | 8B-70B | 8K-128K | GPU 비용 | 로컬 | 높은 커스터마이징 가능 |
 | Mistral (셀프호스팅) | 7B-8x22B | 32K | GPU 비용 | 로컬 | 유럽 언어 지원 |
 | Mythomax (셀프호스팅) | 13B | 4K | GPU 비용 | 로컬 | 롤플레이 전문 |
@@ -596,7 +596,7 @@ print(result["choices"][0]["message"]["content"])
 
 | 플랫폼 | 비디오 NSFW | 이미지 NSFW | LLM NSFW | API 접근 | 최저 가격 | 사용 편의성 |
 |:-------|:----------|:----------|:---------|:---------|:---------|:----------|
-| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)** | ✅ 전체 | ✅ 전체 | ✅ 전체 | ✅ REST API | **$0.03/초부터** | ⭐⭐⭐⭐⭐ |
+| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)** | ✅ 전체 | ✅ 전체 | ✅ 전체 | ✅ REST API | **$0.03/초부터** | ⭐⭐⭐⭐⭐ |
 | Replicate | ⚠️ 제한적 | ⚠️ 제한적 | ❌ 필터 | ✅ REST API | $0.10+ | ⭐⭐⭐⭐ |
 | RunPod | ✅ 셀프호스팅 | ✅ 셀프호스팅 | ✅ 셀프호스팅 | ✅ 커스텀 | GPU 시간당 | ⭐⭐⭐ |
 | fal.ai | ⚠️ 제한적 | ⚠️ 제한적 | ❌ 필터 | ✅ REST API | $0.05+ | ⭐⭐⭐⭐ |
@@ -641,7 +641,7 @@ print(result["choices"][0]["message"]["content"])
 
 클라우드 기반 생성의 경우, **Atlas Cloud의 Flux Dev**가 현재 최고 품질의 무검열 이미지를 생성하며 해부학적 정확도도 최고입니다. 로컬 생성의 경우, ComfyUI에서 Flux Dev 또는 SDXL에 커뮤니티 LoRA 모델을 조합하면 가장 유연합니다.
 
-**[Atlas Cloud에서 Flux Dev 체험하기 →](https://www.atlascloud.ai?ref=JPM683)**
+**[Atlas Cloud에서 Flux Dev 체험하기 →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**
 
 </details>
 
@@ -650,7 +650,7 @@ print(result["choices"][0]["message"]["content"])
 
 **Atlas Cloud의 Wan 2.2 Spicy (비디오당 $0.03)** 가 현재 가장 저렴한 NSFW 비디오 생성 옵션입니다. 대안은 GPU에서 셀프호스팅하는 것인데, GPU 렌탈이나 하드웨어 비용을 고려하면 비디오당 비용이 훨씬 높습니다.
 
-**[$0.03으로 NSFW 비디오 생성 →](https://www.atlascloud.ai?ref=JPM683)**
+**[$0.03으로 NSFW 비디오 생성 →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**
 
 </details>
 
@@ -659,7 +659,7 @@ print(result["choices"][0]["message"]["content"])
 
 주로 두 가지 접근법이 있습니다:
 
-1. **클라우드 API (추천):** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) 같은 무검열 모델 접근을 제공하는 플랫폼을 API로 활용. GPU나 설정 불필요.
+1. **클라우드 API (추천):** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) 같은 무검열 모델 접근을 제공하는 플랫폼을 API로 활용. GPU나 설정 불필요.
 2. **로컬 설치:** ComfyUI 또는 Automatic1111 설치, Civitai나 Hugging Face에서 무검열 모델 다운로드, 자체 GPU에서 실행 (NVIDIA GPU 8GB+ VRAM 필요).
 
 </details>
@@ -674,7 +674,7 @@ print(result["choices"][0]["message"]["content"])
 - **비디오:** Wan 2.2 Spicy (유일한 실용적 무검열 비디오 모델)
 - **크리에이티브 라이팅:** DeepSeek V3.2 또는 Qwen3 (가장 강력한 무검열 LLM)
 
-모두 **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)**에서 콘텐츠 필터 없이 이용 가능.
+모두 **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**에서 콘텐츠 필터 없이 이용 가능.
 
 </details>
 
@@ -694,7 +694,7 @@ print(result["choices"][0]["message"]["content"])
 <details>
 <summary><strong>최고의 무검열 AI API는?</strong></summary>
 
-**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)**가 가장 포괄적인 무검열 API를 제공합니다:
+**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**가 가장 포괄적인 무검열 API를 제공합니다:
 
 - 200개 이상의 모델 (비디오, 이미지, 텍스트)
 - 제로 콘텐츠 필터링
@@ -709,7 +709,7 @@ print(result["choices"][0]["message"]["content"])
 <details>
 <summary><strong>NSFW AI에 고성능 GPU가 필요한가요?</strong></summary>
 
-**아닙니다.** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) 같은 클라우드 플랫폼으로 어떤 디바이스에서든 무검열 콘텐츠를 생성할 수 있습니다 — 스마트폰에서도요. 로컬 생성을 선호한다면 최소 8GB VRAM의 NVIDIA GPU가 필요합니다 (Flux 모델은 12GB+ 추천).
+**아닙니다.** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai) 같은 클라우드 플랫폼으로 어떤 디바이스에서든 무검열 콘텐츠를 생성할 수 있습니다 — 스마트폰에서도요. 로컬 생성을 선호한다면 최소 8GB VRAM의 NVIDIA GPU가 필요합니다 (Flux 모델은 12GB+ 추천).
 
 </details>
 
@@ -747,7 +747,7 @@ print(result["choices"][0]["message"]["content"])
 
 ### 🎁 첫 충전 시 25% 추가 크레딧 획득
 
-[![Atlas Cloud에서 지금 시작하기](https://img.shields.io/badge/🔓_지금_시작하기-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683)
+[![Atlas Cloud에서 지금 시작하기](https://img.shields.io/badge/🔓_지금_시작하기-Atlas_Cloud-blue?style=for-the-badge&logoColor=white)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)
 
 *모델 탐색에 신용카드 불필요. 생성한 만큼만 결제.*
 
