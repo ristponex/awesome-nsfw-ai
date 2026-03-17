@@ -7,7 +7,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Stars](https://img.shields.io/github/stars/atlascloud/awesome-nsfw-ai?style=social)](https://github.com/atlascloud/awesome-nsfw-ai)
+[![Stars](https://img.shields.io/github/stars/atlascloud/awesome-nsfw-ai?style=social)](https://github.com/ristponex/awesome-nsfw-ai)
 
 **無検閲AIジェネレーションの最も包括的なリソース — 動画・画像・テキスト。**
 
