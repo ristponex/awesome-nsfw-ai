@@ -621,7 +621,7 @@ print(result["choices"][0]["message"]["content"])
 |:-------|:-----------|:--------------------|
 | **Content Policy** | Fully uncensored, no filters | Partial restrictions or self-hosting required |
 | **Setup Time** | Instant — sign up and generate | Hours to days for self-hosted solutions |
-| **Cost** | From $0.03/generation | $0.10+ per generation or GPU rental costs |
+| **Cost** | From $0.03/second | $0.10+ per generation or GPU rental costs |
 | **Hardware Needed** | None — cloud-based | High-end GPU ($500-$2000+) for local |
 | **Model Variety** | 200+ models, one platform | Each model requires separate setup |
 | **LoRA Support** | Built-in | Manual configuration per model |

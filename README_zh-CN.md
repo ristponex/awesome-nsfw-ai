@@ -650,7 +650,7 @@ print(result["choices"][0]["message"]["content"])
 <details>
 <summary><strong>最便宜的 NSFW AI 视频生成器是什么？</strong></summary>
 
-**Atlas Cloud 上的 Wan 2.2 Spicy，每个视频仅 $0.03**，是目前最便宜的 NSFW 视频生成选项。替代方案是在 GPU 上自托管，考虑到 GPU 租赁或硬件成本，每个视频的费用要高得多。
+**Atlas Cloud 上的 Wan 2.2 Spicy，每秒仅 $0.03**，是目前最便宜的 NSFW 视频生成选项。替代方案是在 GPU 上自托管，考虑到 GPU 租赁或硬件成本，每个视频的费用要高得多。
 
 **[$0.03 生成 NSFW 视频 →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-nsfw-ai)**
 
