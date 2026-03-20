@@ -56,6 +56,7 @@ Access **200+ AI models** with zero content filtering. Generate video, images, a
 - [Start Creating](#-create-without-limits)
 - [Star History](#-star-history)
 - [Contributing](#-contributing)
+- [Related Lists](#-related-lists)
 - [License](#-license)
 
 ---
@@ -510,6 +511,15 @@ print(result["choices"][0]["message"]["content"])
 | **PhotoMaker** | Customized character generation | Multiple reference images |
 | **LoRA Training** | Train custom character models | Kohya_ss, OneTrainer |
 
+### Guides & References
+
+| Resource | Description | Link |
+|:---------|:-----------|:-----|
+| **Wan 2.2 Spicy LoRA Guide** | Complete guide to using the Wan 2.2 Spicy LoRA for uncensored video generation | [GitHub](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw) |
+| **AI Video LoRA Guide** | Comprehensive guide to AI video LoRA models and fine-tuning | [GitHub](https://github.com/ristponex/ai-video-lora-guide) |
+| **NSFW AI API Comparison** | Detailed comparison of NSFW AI API providers, pricing, and features | [GitHub](https://github.com/ristponex/nsfw-ai-api-comparison) |
+| **Awesome NSFW AI Video** | Curated list of NSFW AI video generation tools and resources | [GitHub](https://github.com/ristponex/awesome-nsfw-ai-video) |
+
 ---
 
 ## 👥 Community
@@ -790,6 +800,15 @@ Contributions are welcome! This list is maintained by the community, for the com
 - Verify links are working before submitting
 - Place new entries at the bottom of the relevant section
 - Follow the existing formatting style
+
+---
+
+## 📚 Related Lists
+
+- [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) — A curated list focused specifically on NSFW AI video generation tools, models, and workflows
+- [AI Video LoRA Guide](https://github.com/ristponex/ai-video-lora-guide) — Comprehensive guide to AI video LoRA models and fine-tuning techniques
+- [NSFW AI API Comparison](https://github.com/ristponex/nsfw-ai-api-comparison) — Side-by-side comparison of NSFW AI API providers
+- [Wan 2.2 Spicy LoRA Guide](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw) — Dedicated guide for the Wan 2.2 Spicy LoRA model
 
 ---
 
